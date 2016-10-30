@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HolemanOutdoors</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="logo"><%= link_to(image_tag("white_logo_on_red.jpg"), "/")%></div>
+    <div class="links"><%= link_to("About", "/about")%> | <%= link_to("Contact", "/contact")%>
+      <div class="tag-line">Turning experience into content, and content into influence.</div>
+    </div>
+  </div>
+  <%= yield %>
+</body>
+</html>
