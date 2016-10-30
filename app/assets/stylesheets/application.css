@@ -15,13 +15,23 @@
  */
  body {
   margin: 0px;
+  background-color: #EBF5FE;
  }
 
 .background {
   background-color: #EBF5FE;
-  /*background-image: url('/assets/holeman_outdoor_background_2.jpg');
-  background-repeat: no-repeat;
-  background-position: center top;*/
+  height: 500px;
+  width: 751px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-bar {
@@ -35,6 +45,7 @@
   color: #FFFFFF;
   font-family: "Courier New";
   z-index: 4;
+  box-shadow: 0 0 7px 10px;
 }
 
 .logo {
@@ -83,12 +94,6 @@
 .bio {
   margin-right: 125px;
   margin-left: 125px;
-}
-
-.home-image {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*.credits {
