@@ -16,9 +16,14 @@
 
  @import "materialize";
 
+ @font-face {
+  font-family: "Aileron-Regular";
+  src: url("/assets/Aileron-Regular.otf") format("truetype");
+ }
+
  body {
   margin: 0px;
-  font-family: "Aileron";
+  font-family: "Aileron-Regular";
  }
 
 .background {
