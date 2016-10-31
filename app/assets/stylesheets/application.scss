@@ -17,13 +17,13 @@
  @import "materialize";
 
  @font-face {
-  font-family: "Aileron-Regular";
-  src: url("/assets/Aileron-Regular.otf") format("truetype");
+  font-family: "Aileron-Light";
+  src: url("/assets/Aileron-Light.otf") format("truetype");
  }
 
  body {
   margin: 0px;
-  font-family: "Aileron-Regular";
+  font-family: "Aileron-Light";
  }
 
 .background {
@@ -55,7 +55,7 @@
 
 .tag-line{
   position: relative;
-  height: 400px;
+  height: 600px;
   width: 100%;
   text-align: right;
   vertical-align: -500px;
@@ -66,7 +66,7 @@
 
 .tag {
   position: absolute;
-  bottom: 50px;
+  bottom: 150px;
   width: 100%;
 }
 
