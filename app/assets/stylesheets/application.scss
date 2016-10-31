@@ -18,7 +18,7 @@
 
  @font-face {
   font-family: "Aileron-Light";
-  src: font-url("/assets/fonts/Aileron-Light.otf") format("truetype");
+  src: font-url("Aileron-Light.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
  }
@@ -30,7 +30,7 @@
 
 .background {
   top: 0;
-  background-image: url("/assets/images/hello2.jpg");
+  background-image: url("hello2.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
