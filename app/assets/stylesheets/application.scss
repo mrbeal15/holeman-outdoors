@@ -16,16 +16,44 @@
 
  @import "materialize";
 
- @font-face {
+@font-face {
   font-family: "Aileron-Light";
   src: font-url("Aileron-Light.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
- }
+}
+
+@font-face{
+  font-family: "Aileron-Thin";
+  src: font-url("Aileron-Thin.otf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Aileron-Bold";
+  src: font-url("Aileron-Bold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Aileron-Regular";
+  src: font-url("Aileron-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aileron-UltraLight";
+  src: font-url("Aileron-UltraLight.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
  body {
   margin: 0px;
-  font-family: "Aileron-Light";
+  font-family: "Aileron-Regular";
  }
 
 .background {
@@ -126,3 +154,13 @@
   padding: 3px;
 }
 
+.contact-info {
+  font-family: "Aileron-Thin";
+  padding-top: 150px;
+  padding-right: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: white;
+}
