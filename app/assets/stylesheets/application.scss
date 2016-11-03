@@ -51,13 +51,6 @@
   font-style: normal;
 }
 
-/*
-<style type="text/css">
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-   Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file.
-</style>*/
-
  body {
   margin: 0px;
   font-family: "Aileron-Regular";
@@ -83,20 +76,16 @@
   margin-right: auto;
 }
 
-.home-logo {
+.logo-overlay {
   opacity: 0.6;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden
 }
 
-.home-logo img {
-  height: 824px;
-  max-height: 100%;
+.logo-overlay img {
   max-width: 100%;
 }
 
@@ -132,7 +121,6 @@
 
 .image-two img {
   max-width: 100%;
-  max-height: 100%;
 }
 
 .contact {
