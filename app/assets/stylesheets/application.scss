@@ -56,6 +56,16 @@
   font-family: "Aileron-Regular";
  }
 
+ #mc_embed_signup {
+  font-family: "Aileron-Bold";
+  font-size: 2em;
+  background: #FFFFFF;
+ }
+
+ #mc_embed_signup label {
+  font-size: 20px;
+ }
+
 .background {
   top: 0;
   background-image: image-url("hello2.jpg");
@@ -66,20 +76,16 @@
   margin-right: auto;
 }
 
-.home-logo {
+.logo-overlay {
   opacity: 0.6;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden
 }
 
-.home-logo img {
-  height: 824px;
-  max-height: 100%;
+.logo-overlay img {
   max-width: 100%;
 }
 
@@ -115,14 +121,12 @@
 
 .image-two img {
   max-width: 100%;
-  max-height: 100%;
 }
 
 .contact {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
 }
 
 .footer {
@@ -149,8 +153,9 @@
 }
 
 .credits img {
+  margin-left: auto;
+  margin-right: auto;
   max-height: 100%;
-  max-width: 100%;
   padding: 3px;
 }
 
